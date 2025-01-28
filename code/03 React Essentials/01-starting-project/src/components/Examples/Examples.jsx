@@ -40,7 +40,8 @@ export default function Examples() {
                             <TabButton onClick={() => handleClick('state')}
                                        isSelected={selectedTopic === 'state'}>State</TabButton>
                         </>
-                    }>
+                    }
+                    ButtonsContainer="menu">
                     {tabContent}
                 </Tabs>
             </Section>
